@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { Tabs } from './tabs';
 import { Tab } from './tab';
 import { StarRater, FamilyTreeNode, FamilyTreeTree } from './components';
-import { StarRaterTab, SearchTab, FamilyTreeTab } from './tabComponents';
+import { StarRaterTab, SearchTab, FamilyTreeTab, TweetboxTab } from './tabComponents';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,8 @@ import { StarRaterTab, SearchTab, FamilyTreeTab } from './tabComponents';
     StarRaterTab,
     FamilyTreeTab,
     FamilyTreeNode,
-    FamilyTreeTree
+    FamilyTreeTree,
+    TweetboxTab
   ],
   imports: [
     BrowserModule,

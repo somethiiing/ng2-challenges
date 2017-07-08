@@ -13,11 +13,8 @@ import { Component } from '@angular/core';
       <tab tabTitle="ng2-familyTree">
         <familyTree-tab></familyTree-tab>
       </tab>
-      <tab class="red" tabTitle="RED">
-        <div class="red">
-          <p class="redText">RED!</p>
-          <p>CONTENT GOES HERE</p>
-        </div>
+      <tab tabTitle="ng2-tweetbox">
+        <tweetbox-tab></tweetbox-tab>
       </tab>
       <tab class="green" tabTitle="GREEN">
         <div class="green">
