@@ -4,9 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
     <tabs>
-      <tab tabTitle="ng2-todo">
-        <todo-tab></todo-tab>
-      </tab>
       <tab tabTitle="ng2-starRater">
         <starRater-tab></starRater-tab>
       </tab>
@@ -35,3 +32,8 @@ export class AppComponent {
   }
 
 }
+
+
+      // <tab tabTitle="ng2-todo">
+      //   <todo-tab></todo-tab>
+      // </tab>
