@@ -1,12 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { Tabs } from './tabs';
-import { Tab } from './tab';
-import { StarRater, FamilyTreeNode, FamilyTreeTree } from './components';
-import { StarRaterTab, SearchTab, FamilyTreeTab, TweetboxTab } from './tabComponents';
+import { StarRater, FamilyTreeNode, FamilyTreeTree, Tab, Tabs, NoteCard, NoteCreator, ColorPicker } from './components';
+import { StarRaterTab, SearchTab, FamilyTreeTab, TweetboxTab, ApiSearchTab, TodoTab } from './tabComponents';
+import { ApiService, SearchService, NotesService } from './services';
 
 @NgModule({
   declarations: [
@@ -19,13 +19,23 @@ import { StarRaterTab, SearchTab, FamilyTreeTab, TweetboxTab } from './tabCompon
     FamilyTreeTab,
     FamilyTreeNode,
     FamilyTreeTree,
-    TweetboxTab
+    TweetboxTab,
+    ApiSearchTab,
+    NoteCard,
+    NoteCreator,
+    TodoTab,
+    ColorPicker
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpModule
   ],
-  providers: [],
+  providers: [
+    ApiService,
+    SearchService,
+    NotesService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
