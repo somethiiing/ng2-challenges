@@ -1,28 +1,24 @@
 # Ng2Challenges
 
+[demo](https://somethiiing.github.io/ng2-challenges)
+
+## Features
+* StarRater: click to select a star!
+* Search: Uses static data to live search/filter the list of countries
+* ApiSearch: Uses live data from The Movie DB API to get a list of most popular movies in 2016. Also live search/filters.
+* FamilyTree: Hover over a parent to see all children/grandchildren.
+* Tweetbox: Live character counter. Displays warning if over character limit.
+
+## Setup
+npm install
+`ng serve` for dev server
+`ng build` to build to `dist/`
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.3.
 
-## Development server
+## Screenshot
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+![starrater](https://github.com/somethiiing/ng2-challenges/blob/master/readmeImages/starRater1.png?raw=true)
+![search](https://github.com/somethiiing/ng2-challenges/blob/master/readmeImages/search1.png?raw=true)
+![familyTree](https://github.com/somethiiing/ng2-challenges/blob/master/readmeImages/familyTree2.png?raw=true)
+![tweetbox](https://github.com/somethiiing/ng2-challenges/blob/master/readmeImages/tweetbox1.png?raw=true)
+![tabs](https://github.com/somethiiing/ng2-challenges/blob/master/readmeImages/tabs1.png?raw=true)
