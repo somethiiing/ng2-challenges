@@ -5,7 +5,7 @@
 ## Features
 * StarRater: click to select a star!
 * Search: Uses static data to live search/filter the list of countries
-* ApiSearch: Uses live data from The Movie DB API to get a list of most popular movies in 2016. Also live search/filters.
+* ApiSearch: Uses live data from The Movie DB API to get a list of most popular movies in 2016. Also live search/filters. Click a movie name for more details!
 * FamilyTree: Hover over a parent to see all children/grandchildren.
 * Tweetbox: Live character counter. Displays warning if over character limit.
 
