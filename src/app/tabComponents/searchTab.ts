@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
       <h1>Country Filter</h1>
       <div class="searchBar">
         <input
+          class="searchInput"
           [(ngModel)]="searchTerm"
           placeholder="Type some keywords!"
         >

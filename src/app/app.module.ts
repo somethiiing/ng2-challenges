@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { NgModule } from '@angular/core';
+import { SlimLoadingBarModule } from 'ng2-slim-loading-bar';
 
 import { AppComponent } from './app.component';
 import { StarRater, FamilyTreeNode, FamilyTreeTree, Tab, Tabs, NoteCard, NoteCreator, ColorPicker } from './components';
@@ -29,7 +30,8 @@ import { ApiService, SearchService, NotesService } from './services';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    SlimLoadingBarModule.forRoot()
   ],
   providers: [
     ApiService,
