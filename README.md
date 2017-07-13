@@ -17,8 +17,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Screenshot
 
-[starrater](https://github.com/somethiiing/ng2-challenges/blob/master/readmeImages/starRater1.png?raw=true)
-[search](https://github.com/somethiiing/ng2-challenges/blob/master/readmeImages/search1.png?raw=true)
-[familyTree](https://github.com/somethiiing/ng2-challenges/blob/master/readmeImages/familyTree2.png?raw=true)
-[tweetbox](https://github.com/somethiiing/ng2-challenges/blob/master/readmeImages/tweetbox1.png?raw=true)
-[tabs](https://github.com/somethiiing/ng2-challenges/blob/master/readmeImages/tabs1.png?raw=true)
+![starrater](https://github.com/somethiiing/ng2-challenges/blob/master/readmeImages/starRater1.png?raw=true)
+![search](https://github.com/somethiiing/ng2-challenges/blob/master/readmeImages/search1.png?raw=true)
+![familyTree](https://github.com/somethiiing/ng2-challenges/blob/master/readmeImages/familyTree2.png?raw=true)
+![tweetbox](https://github.com/somethiiing/ng2-challenges/blob/master/readmeImages/tweetbox1.png?raw=true)
+![tabs](https://github.com/somethiiing/ng2-challenges/blob/master/readmeImages/tabs1.png?raw=true)
